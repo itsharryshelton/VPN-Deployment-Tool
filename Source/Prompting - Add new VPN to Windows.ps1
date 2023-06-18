@@ -4,7 +4,7 @@ $TunnelType = "Automatic"
 $EncryptionLevel = "Required"
 $AuthenticationMethod = "MSChapv2"
 $AllUserConnection = $false
-$RememberCredential = Read-Host 'Remeber Credentials? "Yes" or "No"'
+$RememberCredential = Read-Host 'Remember Credentials? "Yes" or "No"'
 switch ($RememberCredential)
 {
   Yes {$myVarConverted = $true; break}
