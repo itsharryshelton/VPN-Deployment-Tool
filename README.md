@@ -11,7 +11,7 @@ The .exe is required to be run in admin as the default (non changable via the .e
 ![image](https://github.com/itsharryshelton/VPN-Deployment-Tool/assets/136495601/b2565ec7-d892-47a8-8cba-66151fb02625)
 
 3. "Yes" or "No" to remember credentials
-![image](https://github.com/itsharryshelton/VPN-Deployment-Tool/assets/136495601/a14862f8-5ec5-4961-bc5c-3b537b6748f8)
+![image](https://github.com/itsharryshelton/VPN-Deployment-Tool/assets/136495601/272028ea-5083-486e-af50-6cdbfbc9cb79)
 
 4. Yes, selecting no will fail this setup
 ![image](https://github.com/itsharryshelton/VPN-Deployment-Tool/assets/136495601/b3fe4dbb-0873-4b51-b8a2-b4d494703fd0)
