@@ -1,7 +1,7 @@
 # VPN-Deployment-Tool
-An .exe for simple VPN adding to Windows Machines, including source code
+An .exe for simple VPN adding to Windows Machines, including source code.
 
-The .exe is required to be run in admin as the default (non changable via the .exe) is to inject the VPN into global phone book.
+The .exe is required to be run in admin as the default (non changable via the .exe) to inject the VPN into global phone book.
 
 **How to use the .exe: **
 1. Enter VPN Name (E.g. "Company X VPN")
@@ -25,12 +25,12 @@ The .exe is required to be run in admin as the default (non changable via the .e
 I have tested this script working on Windows 10 Business and Windows 11 Pro - I don't see why it won't work on other versions of 10 and 11, no idea about 7 or 8/8.1.
 
 The Source folder includes the following files:
-Png and ico for the icon of the application
-Two different source scripts.
+- .PNG and .ICO files for the icon of the application.
+- Two different source scripts.
 
 The "prompting" script is exactly the same script that the .exe is using, just in the plain .ps1 format if you wanted to add or change anything.
-The "Edit First" one is a non prompting one, you will require to edit this - this is best for deployment to machines through an RMM or logon script etc
+The "Edit First" one is a non prompting one, you will require to edit this - this is best for deployment to machines through an RMM or logon script etc.
 
 At no point does this script ask for user logon details - Windows will prompt the user for this.
 
-Please note that this script will only support Windows BuiltIn by default, so for example if you have Sonicwall Mobile Connect installed on the machine, it won't be able to add that via this, that will need changing.
+Please note that this script will only support Windows BuiltIn by default, so for example if you have Sonicwall Mobile Connect installed on the machine, it won't be able to add that via this, that will need changing independently.
